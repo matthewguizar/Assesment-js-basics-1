@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+var gitDefinition = `git is software that tracks files on your computer and a way to save and share code. `
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+var gitHubDefinition = `github is a website where you can share code that you stored with git and work collaboratively with others.`
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +27,7 @@
 */
 
 //CODE HERE
-
+var gitInitDefinition =  `git init creates a new git repository which is how one transfers from git to github `
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +35,7 @@
 */
 
 //CODE HERE
-
+var gitCloneDefinition = `makes a copy of an existing repository at another location`
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+var gitStatusDefinition = `updates user of git status ie: if its been initialized or updated`
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +54,8 @@
 */
 
 //CODE HERE
-
+var gitAddDefinition = `tells git what will be included in updates but changes are not recorded`
+var gitAddCode = `add .`
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +66,8 @@
 */
 
 //CODE HERE
-
+var gitCommitDefinition = `git commit saves and updates the work of the file (hard save) -m "message here"`
+var gitCommitCode = 'git init'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +76,5 @@
 */
 
 //CODE HERE
+
+var gitPushDefinition = `The command git push takes the code and sends it to github repository to be shared or collaborated on`
