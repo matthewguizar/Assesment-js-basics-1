@@ -27,7 +27,7 @@ var gitHubDefinition = `github is a website where you can share code that you st
 */
 
 //CODE HERE
-var gitInitDefinition =  `git init creates a new git repository which is how one transfers from git to github `
+var gitInitDefinition =  `git init creates a new git repository which is how one transfers from git to github in the folder where the command is run`
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,7 +35,7 @@ var gitInitDefinition =  `git init creates a new git repository which is how one
 */
 
 //CODE HERE
-var gitCloneDefinition = `makes a copy of an existing repository at another location`
+var gitCloneDefinition = `makes a copy of an existing repository on your machine`
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -54,7 +54,7 @@ var gitStatusDefinition = `updates user of git status ie: if its been initialize
 */
 
 //CODE HERE
-var gitAddDefinition = `tells git what will be included in updates but changes are not recorded`
+var gitAddDefinition = `add files to be tracked `
 var gitAddCode = `add .`
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +66,7 @@ var gitAddCode = `add .`
 */
 
 //CODE HERE
-var gitCommitDefinition = `git commit saves and updates the work of the file (hard save) -m "message here"`
+var gitCommitDefinition = `git commit saves and updates the work of the file (snap shot of files being tracked) -m "message here"`
 var gitCommitCode = 'git init'
 
 //////////////////PROBLEM 8////////////////////

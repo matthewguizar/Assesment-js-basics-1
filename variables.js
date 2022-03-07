@@ -36,5 +36,5 @@ if (favNum === 13){
 
 //CODE HERE
 for (let i = 0; i < 5; i++){
-  console.log(favNum[i])
+  console.log(favNum)
 }

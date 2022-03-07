@@ -5,14 +5,13 @@
     Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
 */
 
+// Planning
 // Analysis of Requirements
 // Design
-// Implementation
+// implementation
+// testing and integration
 // Maintain
-// Planning
-// Testing & Integration
- myArr = [`Planning`, `Analysis of Requirements`, `Design`, `Testing and Integration` `Implementation`, `Maintain`]
-{ console.log (myArr)}
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
@@ -24,9 +23,9 @@ const analysis =  `This is the second step, in which the requirements to reach e
 
 const design = `This is the third step, where the team is now taking the first steps to creating their vision.`
 
-const testing = `Initial tests after some design is done to find and fix bugs before further design/implementation`
+const implementation = `code is written and features are built in`
 
-const implementation = `The step where the product released to public and is ready`
+const testing = `Initial tests after some design is done to find and fix bugs before further design/implementation deploy to users`
 
 const maintain = `After finished product constant bug fixes and maintenance must be done to ensure everything continues to run smoothly`
 
